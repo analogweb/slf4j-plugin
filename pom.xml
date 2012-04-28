@@ -39,8 +39,8 @@
 	<inceptionYear>2012</inceptionYear>
 	<contributors />
 	<scm>
-		<connection>scm:git:https://code.google.com/p/analog.slf4jplugin</connection>
-		<developerConnection>scm:git:https://code.google.com/p/analog.slf4jplugin</developerConnection>
+		<connection>scm:git:git@github.com:analogweb/slf4j-plugin.git</connection>
+		<developerConnection>scm:git:git@github.com:analogweb/slf4j-plugin.git</developerConnection>
 	</scm>
 	<licenses>
 		<license>
@@ -61,7 +61,6 @@
 			<groupId>org.analogweb</groupId>
 			<artifactId>analogweb-core</artifactId>
 			<version>0.7.0-SNAPSHOT</version>
-			<optional>true</optional>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
