@@ -1,6 +1,8 @@
 Analog Web Framework SLF4J Plugn
 ===============================================
 
+[![Build Status](https://travis-ci.org/analogweb/slf4j-plugin.svg)](https://travis-ci.org/analogweb/slf4j-plugin)
+
 [SLF4J](http://www.slf4j.org) logger bridge for AnalogWeb framework.
 
 This plugin enable logging effects of SLF4J through org.analogweb.util.logging package.
