@@ -1,5 +1,5 @@
 <!--
-    The MIT Lisence Copyright (c) 2011 - 2014 Analog Web Framework Development 
+    The MIT Lisence Copyright (c) 2011 - 2015 Analog Web Framework Development 
 
 	Team. Permission is hereby granted, free of charge, to any person obtaining 
 	a copy of this software and associated documentation files (the "Software"), 
@@ -41,8 +41,7 @@
 		<url>scm:git:git@github.com:analogweb/slf4j-plugin.git</url>
 		<connection>scm:git:git@github.com:analogweb/slf4j-plugin.git</connection>
 		<developerConnection>scm:git:git@github.com:analogweb/slf4j-plugin.git</developerConnection>
-      <tag>HEAD</tag>
-  </scm>
+    </scm>
 	<licenses>
 		<license>
 			<name>MIT license</name>
@@ -61,12 +60,12 @@
 		<dependency>
 			<groupId>org.analogweb</groupId>
 			<artifactId>analogweb-core</artifactId>
-			<version>0.9.2</version>
+			<version>0.9.3-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
-			<version>1.7.7</version>
+			<version>1.7.10</version>
 		</dependency>
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
