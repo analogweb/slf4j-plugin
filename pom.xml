@@ -21,7 +21,7 @@
 	<groupId>org.analogweb</groupId>
 	<artifactId>analogweb-slf4j</artifactId>
 	<packaging>jar</packaging>
-	<version>0.9.7</version>
+	<version>0.9.8-SNAPSHOT</version>
 	<name>analogweb-slf4j</name>
 	<url>https://github.com/analogweb/</url>
 	<organization>
@@ -41,7 +41,7 @@
 		<url>scm:git:git@github.com:analogweb/slf4j-plugin.git</url>
 		<connection>scm:git:git@github.com:analogweb/slf4j-plugin.git</connection>
 		<developerConnection>scm:git:git@github.com:analogweb/slf4j-plugin.git</developerConnection>
-      <tag>v0.9.7</tag>
+      <tag>HEAD</tag>
   </scm>
 	<licenses>
 		<license>
