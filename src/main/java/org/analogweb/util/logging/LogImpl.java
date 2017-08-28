@@ -5,19 +5,14 @@ import org.slf4j.LoggerFactory;
 import org.slf4j.MarkerFactory;
 
 /**
- * <a href="http://www.slf4j.org/">SLF4j</a>を使用した{@link AbstractLog}の実装です。<br/>
- * ログ出力の設定、及び解決は、全てSLF4jに委譲されます。
- * @author snowgoose
+ * {@link AbstractLog} implementation for <a href="http://www.slf4j.org/">SLF4j</a><br/>
+ * Outputs the log via slf4j API.
+ * @author y2k2mt
  */
 public class LogImpl extends AbstractLog {
 
     private Logger log;
 
-    /**
-     * コンストラクタ。
-     * @param name 生成されるロガーの名称({@link LoggerFactory#getLogger(String)})
-     * @param classLoader {@link ClassLoader}
-     */
     public LogImpl(String name, ClassLoader classLoader) {
         super(name, classLoader);
         log = LoggerFactory.getLogger(name);
