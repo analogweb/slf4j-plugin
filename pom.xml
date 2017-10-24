@@ -21,7 +21,7 @@
 	<groupId>org.analogweb</groupId>
 	<artifactId>analogweb-slf4j</artifactId>
 	<packaging>jar</packaging>
-	<version>0.10.0-SNAPSHOT</version>
+	<version>0.10.1-SNAPSHOT</version>
 	<name>analogweb-slf4j</name>
 	<url>https://github.com/analogweb/</url>
 	<organization>
@@ -41,6 +41,7 @@
 		<url>scm:git:git@github.com:analogweb/slf4j-plugin.git</url>
 		<connection>scm:git:git@github.com:analogweb/slf4j-plugin.git</connection>
 		<developerConnection>scm:git:git@github.com:analogweb/slf4j-plugin.git</developerConnection>
+      <tag>HEAD</tag>
     </scm>
 	<licenses>
 		<license>
@@ -53,30 +54,30 @@
 	<parent>
 		<groupId>org.analogweb</groupId>
 		<artifactId>analogweb-parent-modules</artifactId>
-		<version>11</version>
+		<version>16</version>
 		<relativePath />
 	</parent>
 	<dependencies>
 		<dependency>
 			<groupId>org.analogweb</groupId>
 			<artifactId>analogweb-core</artifactId>
-			<version>0.10.0-SNAPSHOT</version>
+			<version>0.10.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
-			<version>1.7.22</version>
+			<version>1.7.25</version>
 		</dependency>
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-core</artifactId>
-			<version>1.2.1</version>
+			<version>1.2.3</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-classic</artifactId>
-			<version>1.2.1</version>
+			<version>1.2.3</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
