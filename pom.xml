@@ -1,5 +1,5 @@
 <!--
-    The MIT Lisence Copyright (c) 2011 - 2017 Analog Web Framework Development 
+    The MIT Lisence Copyright (c) 2011 - 2019 Analog Web Framework Development 
 
 	Team. Permission is hereby granted, free of charge, to any person obtaining 
 	a copy of this software and associated documentation files (the "Software"), 
@@ -28,8 +28,8 @@
 		<name>Analog Web Framework Development Team</name>
 	</organization>
 	<properties>
-		<maven.compiler.target>1.7</maven.compiler.target>
-		<maven.compiler.source>1.7</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
@@ -61,12 +61,12 @@
 		<dependency>
 			<groupId>org.analogweb</groupId>
 			<artifactId>analogweb-core</artifactId>
-			<version>0.10.1</version>
+			<version>0.11.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
-			<version>1.7.25</version>
+			<version>1.7.26</version>
 		</dependency>
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
