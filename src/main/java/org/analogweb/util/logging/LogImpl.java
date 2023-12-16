@@ -5,7 +5,7 @@ import org.slf4j.LoggerFactory;
 import org.slf4j.MarkerFactory;
 
 /**
- * {@link AbstractLog} implementation for <a href="http://www.slf4j.org/">SLF4j</a><br/>
+ * {@link AbstractLog} implementation for <a href="http://www.slf4j.org/">SLF4j</a>
  * Outputs the log via slf4j API.
  * @author y2k2mt
  */
@@ -195,7 +195,7 @@ public class LogImpl extends AbstractLog {
 
     /**
      * {@link org.analogweb.util.logging.Marker}を
-     * {@link org.slf4j.Marker}に変換します。<br/>
+     * {@link org.slf4j.Marker}に変換します。
      * {@link org.analogweb.util.logging.Marker#getName()}
      * の値から、{@link MarkerFactory#getMarker(String)}によって
      * 生成されます。
