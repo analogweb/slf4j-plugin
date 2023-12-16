@@ -18,5 +18,6 @@ jobs:
         with:
           java-version: '11'
           cache: maven
+          distribution: 'temurin'
       - name: Test
         run: mvn clean test
